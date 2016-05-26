@@ -36,4 +36,7 @@
  - app.clearRecentDocuments()[osx,windows]
  - app.setAsDefaultProtocolClient[osx,windows]
 
+ # autoUpdater
+ | Enable apps to auto update themselves
+
 
