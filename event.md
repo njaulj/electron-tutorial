@@ -17,5 +17,24 @@
  - login
  - gpu-process-crashed
 
- # methods
+# app.methods
+ - app.quit()->events Emit
+ 	- before-quit
+ 	- if all windows->closed ,will-quit
+
+ -app.exit()
+ -app.focus()
+ -app.hide()[osx]
+ -app.show()[osx]
+ -app.getAppPath()
+ -app.getPath(name)
+ -app.setPath(name,path)
+ -app.getVersion()
+ -app.getName()
+ -app.setNmae(name)
+ -app.getLocale()
+ -app.addRecentDocument(path)[osx,windows]
+ -app.clearRecentDocuments()[osx,windows]
+ -app.setAsDefaultProtocolClient[osx,windows]
+
 
