@@ -21,7 +21,6 @@
  - app.quit()->events Emit
  	- before-quit
  	- if all windows->closed ,will-quit
-
  -app.exit()
  -app.focus()
  -app.hide()[osx]
