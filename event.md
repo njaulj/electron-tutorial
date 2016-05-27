@@ -72,5 +72,63 @@ BrowserWindow
 	win.loadURL('https://github.com');
 	win.show();
 ```
+	## BrowserWindow.on
+		- page-title-updated
+		- close
+		- closed
+		- unresponsive
+		- responsive
+		- blur
+		- focus
+		- show
+		- hide
+		- maximize
+		- unmaximize
+		- minimize
+		- resore
+		- resize
+		- move
+		- moved[osx]
+		- enter-full-screen
+		- leave-full-screen
+		- enter-html-full-screen
+		- leave-html-full-screen
+		- app-command[windows]
+		- scroll-touch-begin[osx]
+		- scroll-touch-end[osx]
+		- swipe[osx]
+
+	## BrowserWindow.method
+		- BrowserWindow.getAllWindows()
+		- BrowserWindow.getFocusedWindow()
+		- BrowserWindow.fromWebContents(webContents)
+		- BrowserWindow.fromId(id)
+		- BrowserWindow.addDevToolsExtension(path)
+		- BrowserWindow.removeDevToolsExtension(name)
+
+	## Instance Methods
+		- win.destroy()
+		- win.close()
+		- win.focus()
+		- win.blur()
+		- win.isFocused()
+		- win.show()
+		- win.showInactive()
+		- win.hide()
+		- win.isVisible()
+		- win.maximize()
+		- win.unmaximize()
+		- win.isMaximized()
+		- win.minimize()
+		- win.restore()
+		- win.isMinimized()
+		- win.setFullScreen(flag)
+		- win.isFullScreen()
+		- win.setAspectRatio(aspectRatio[,extraSize])
+		- win.setBounds(options[,animate])
+		- win.getBounds()
+		- win.setSize(width,height[,animate])[animate is for osx]
+		- win.getSize()
+
 
 
